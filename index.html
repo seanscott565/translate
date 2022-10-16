@@ -11,15 +11,14 @@
 <br>
 <br>
 <details style="cursor: pointer;">
-    <summary>View languages</summary>
+    <summary>Select Language</summary>
     <summary>
         <ul>
-            <button onclick="spanishSelect()" id="eu">Spanish</button><br>
-            <button onclick="russianSelect()" id="ru">Russian</button> <br>
-            <button onclick="frenchSelect()" id="fr">French</button>
+            <button onclick="langTranslate(this.dataset.lang)" id="1" data-lang="es">Spanish</button><br>
+            <button onclick="langTranslate(this.dataset.lang)" id="2" data-lang="ru">Russian</button> <br>
+            <button onclick="langTranslate(this.dataset.lang)" id="3" data-lang="fr">French</button>
         </ul>
     </summary>
 </details>
-<script src="script.js"></script>
+<script src="dry.js"></script>
 </body>
-</html>
