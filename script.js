@@ -20,7 +20,7 @@ function loadingAnimation() {
 }
 
 
-const KEY = '3984098d58mshe329bdcd36f6853p1d8defjsn16e9ebd94eb2';
+const KEY = '';
 
 const HEADER_OPTIONS = {
     'content-type': 'application/json',
